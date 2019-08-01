@@ -188,7 +188,7 @@ object TermsAndTypes extends ScalaTutorialSection {
     (0 to 10).contains(10) shouldBe true
     (0 until 10).contains(10) shouldBe res1
     "foo".drop(1) shouldBe "oo"
-    "bar".take(2) shouldBe res2
+    "bar".take(2) shouldBe "ba"
   }
 
 }
